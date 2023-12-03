@@ -1,8 +1,8 @@
 const getUserNames = (users) => {
-return users.map(user => user.getUserNames)
+return users.map(user => user.name)
 };
 
-console.log(
+  console.log(
   getUserNames([
   {
     name: "Moore Hensley",
